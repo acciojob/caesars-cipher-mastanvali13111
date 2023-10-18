@@ -40,7 +40,7 @@ function rot13(encodedStr) {
 		if(lookup[encodedStr[i]])
 		count+=lookup[encodedStr[i]];
 		else
-			out+=encodedStr[i]
+			count+=encodedStr[i];
 	}
 
   return count; //return decodedArr
